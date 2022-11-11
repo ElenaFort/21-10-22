@@ -19,7 +19,7 @@ double[,] InitMatrix(int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            resultMatrix[i, j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10;
+            resultMatrix[i, j] = Convert.ToDouble(rnd.Next(-100, 100)) / 10;
         }
     }
     return resultMatrix;
